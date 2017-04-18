@@ -11,7 +11,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
-  color: white;
+  color: #212121;
 }
 
 .App-intro {
@@ -21,4 +21,18 @@
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
+}
+
+
+.row .col-md-4 .card{
+  border:1px solid grey;
+  padding:5px;
+}
+
+.nonono{
+  background-color: #98daee !important;  
+}
+
+.hahaha{
+  background-color: #f7f7f7 !important;
 }
