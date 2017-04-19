@@ -9,13 +9,22 @@ class App extends Component {
       <div className="App">
         <div className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h2>Assessment</h2>
-        </div>
+          </div>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+         Assessment #1 
         </p>
 
         <List count="10" ></List>
+
+         <footer className="page-footer">
+          <div className="footer-copyright">
+            <div className="container">
+            Assessment by Vikas
+            <a className="grey-text text-lighten-4 right" href="#!">Github Link </a>
+            </div>
+          </div>
+        </footer>
+            
       </div>
     );
   }
