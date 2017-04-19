@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import List from './list.js';
+import Lists from './list.js';
+import List from 'react-virtualized/dist/commonjs/List'
 
 class App extends Component {
   render() {
+
+
     return (
       <div className="App">
         <div className="App-header">
@@ -13,8 +16,9 @@ class App extends Component {
         <p className="App-intro">
          Assessment #1 
         </p>
-
-        <List count="10" ></List>
+        <List/>
+        <Lists count="10" ></Lists>
+         
 
          <footer className="page-footer">
           <div className="footer-copyright">
